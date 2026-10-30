@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COMI.BARBER | Precision Fades</title>
+  <style>
+    :root {
+      --bg: #0d0d0d;
+      --card: #171717;
+      --accent: #d4af37;
+      --text: #ffffff;
+      --subtext: #a3a3a3;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 480px;
+      width: 100%;
+      text-align: center;
+    }
+    .header {
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+    h1 {
+      font-size: 2.2rem;
+      letter-spacing: 2px;
+      margin: 0;
+      color: var(--text);
+      text-transform: uppercase;
+    }
+    .tagline {
+      color: var(--accent);
+      font-size: 0.95rem;
+      letter-spacing: 1px;
+      margin-top: 5px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+    .bio-card {
+      background: var(--card);
+      border: 1px solid #262626;
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 25px;
+      text-align: left;
+    }
+    .bio-card p {
+      color: var(--subtext);
+      font-size: 0.95rem;
+      line-height: 1.5;
+      margin: 0;
+    }
+    .services {
+      margin-bottom: 25px;
+    }
+    .service-item {
+      background: var(--card);
+      border: 1px solid #262626;
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .service-title {
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    .service-price {
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+    .btn {
+      display: block;
+      background: var(--accent);
+      color: #000;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 16px;
+      border-radius: 12px;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: transform 0.2s;
+    }
+    .btn:active {
+      transform: scale(0.98);
+    }
+    .footer {
+      margin-top: 40px;
+      color: #525252;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>COMI.BARBER</h1>
+      <div class="tagline">Precision Fades & Clean Lines</div>
+    </div>
+
+    <div class="bio-card">
+      <p>Zaboravi na prosečna šišanja. Svaki fade, svaka linija i svaka brada rade se sa potpunom posvećenošću detaljima. Zanat koji gradim od nule, sa vizijom za sam vrh.</p>
+    </div>
+
+    <div class="services">
+      <div class="service-item">
+        <span class="service-title">✂️ Skin Fade / Taper Fade</span>
+        <span class="service-price">800 RSD</span>
+      </div>
+      <div class="service-item">
+        <span class="service-title">🧔 Oblikovanje & Sređivanje Brade</span>
+        <span class="service-price">DM</span>
+      </div>
+      <div class="service-item">
+        <span class="service-title">📐 Oštre Linije & Detalji</span>
+        <span class="service-price">Gratis</span>
+      </div>
+    </div>
+
+    <a href="https://instagram.com/comi.barber" class="btn" target="_blank">Zakaži Termin u DM</a>
+
+    <div class="footer">
+      © COMI.BARBER | Dobrić - Beograd
+    </div>
+  </div>
+</body>
+</html>
